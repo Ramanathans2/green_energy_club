@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Calendar-like Grid</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <header>
+        <div class="head-clg-logo">
+            <img src="static/TRP-logo-copy.png" height="100%">
+        </div>
+        <div class="head-title-box">
+            <h1>SRM TRP Engineering College</h1>
+            <h2>Department of Electrical & Electronics Engineering</h2>
+        </div>
+        <div class="club-logo">
+            <img src="static/green-club-logo.jpg" height="100%">
+        </div>
+    </header> -->
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prev-month">&lt;</button>
+            <h2 id="month-year">March 2025</h2>
+            <a href="april.html"><button id="next-month">&gt;</button></a>
+        </div>
+        
+        <div class="calendar-grid">
+            <div class="day-name">Sun</div>
+            <div class="day-name">Mon</div>
+            <div class="day-name">Tue</div>
+            <div class="day-name">Wed</div>
+            <div class="day-name">Thu</div>
+            <div class="day-name">Fri</div>
+            <div class="day-name">Sat</div>
+
+            <!-- Days of the month -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day">1</div>
+            <div class="day" >2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day mar1925" onclick="openmar19()">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day mar2225" onclick="openmar22()">22</div>
+            <div class="day mar2325" onclick="openmar23()">23</div>
+            <div class="day mar2425" onclick="openmar24()">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+            <div class="day empty"></div> <!-- Empty cells for days before the 1st -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+            

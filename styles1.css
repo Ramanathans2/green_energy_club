@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.oswald-body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+body{
+
+    background-color: #308388;
+}
+header{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-self: center;
+    height: 150px;
+    background-color: white;
+}
+.head-clg-logo{
+    margin: 6px;
+    height: 100px;
+    margin-left: 32px;
+}
+.head-title-box{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+.head-title-box h1, h2{
+    text-align: center;
+}
+.club-logo{
+    margin: 6px;
+    height: 100px;
+    justify-self: flex-end;
+}
+.club-logo img{
+    border-radius: 64px;
+    height: 120px;
+    margin-right: 32px;
+}
+.body-container{
+    /* width: 1000px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.head-title{
+    margin-top: 12px;
+    margin-bottom: 32px;
+    justify-self: center;
+    align-self: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 10px;
+    /* border-color: #d0e0e0; */
+    /* border-style: solid; */
+    border-radius: 12px;
+    transition: 0.5s;
+    background-color: white;
+}
+.card-body:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.card-img{
+    border-radius: 12px;
+    padding: 8px;
+    margin: 8px;
+    height: 470px;
+    display: flex;
+}
+.card-img img{
+    align-self: center;
+
+}
+.card-text-body{
+    display: flex;
+    flex-direction: column;
+    margin-left :12px;
+    margin-bottom: 10px;
+}
+.card-text-event-name{
+    margin: 8px;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+}
+.card-text-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4px;
+}
+.text-svg{
+    width: 32px;
+    margin: 0px;
+}
+
+.text-content{
+    margin: 0px;
+    margin-left: 8px;
+    max-width: 100%;
+}
